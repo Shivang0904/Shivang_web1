@@ -4,47 +4,225 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    
-    <!-- Link Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-
-    <!-- link File CSS -->
+    <title>Shivang Portfolio Website</title>
+    <!-- Link To CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ 
 </head>
 <body>
-    <div class="contanier">
-        <div class="hero">
-            <nav>
-                <a href="#" class="logo">Shivang Singh</a>
-
-                <div class="nav-links">
-                    <a class="active" href="#">home</a>
-                    <a href="#">about</a>
-                    <a href="#">services</a>
-                    <a href="contact.html">contact</a>
-                </div>
-            </nav>
-
-            <div class="content">
-                <div class="div-text">
-                    <h1>Hello, I'am Shivang</h1>
-                    
-                    <p>I'am Web Developer,Passionate about Designing a websites wiith unique Approach.Being in the Field of IT my curosity is to Explore Problems in New and Unfamiliar Domains</p>
-                        <a href="#" class="btn">My Works</a>
-                </div>
-
-                <div class="div-img">
-                    <img src="hero.png" alt="">
-                </div>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">My Portfolio</a>
+ 
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- Home -->
+ 
+    <section class="home" id="home">
+        <div class="social">
+            <a href="#"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="home-img">
+            <img src="shivang1.jpeg" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Shivang Singh</h1>
+            <h2>Frontend Developer</h2>
+            <p>I'am Passionate about Designing a websites with unique Approach.Being in the Field of IT my curiosity is to Explore Problems in New and Unfamiliar Domains.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+ 
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+                <img src="shivangh3.jpeg" alt="">
             </div>
-
-            <div class="soc-link">
-                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <div class="about-text">
+                <p>"Hello there! I'm a passionate frontend developer with a keen eye for detail and a love for crafting immersive digital experiences.<br>
+                    <br> 
+                    I enjoy building everything from small business sites to rich interactive web sites. "I am a good team player who enjoys working in a collaborative environment".<br />
+                    I subscribe to popular video-streaming websites,read vlogs and enjoy internet surfing.My experience has taught me how to make sites that are easy to use and intuitive.<br />
+                    I enjoy the challenge of creating beautiful designs that are both clear and easy to navigate through.
+                </p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user' ></i>
+                        <span>Shivang Singh</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone' ></i>
+                        <span>+91 8369733163</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope' ></i>
+                        <span>singhshivang0409@gmail.com</span>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- Box 1 -->
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>94%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <!-- Box 2 -->
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>84%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <!-- Box 3 -->
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>74%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <!-- Box 4 -->
+                <div class="bars-box">
+                    <h3>React</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="123.png" alt="">
+            </div>
+        </div>
+ 
+    </section>
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>My Services</span>
+        </div>
+        <div class="services-content">
+            <!-- Box 1 -->
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 2 -->
+            <div class="services-box">
+                <i class='bx bx-server' ></i>
+                <h3>Backend Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 3 -->
+            <div class="services-box">
+                <i class='bx bx-brush' ></i>
+                <h3>UI/UX Design</h3>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-wordpress' ></i>
+                <h3>Software Developer</h3>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>My Project</h2>
+            <span>My Recent Work</span>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <img src="image13.png" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="image6.png" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="image41.png" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="image7.png" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="image8.png" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="image9.png" alt="">
+            </div>
+        </div>
+        <a href="https://drive.google.com/file/d/19WHWJGDy2THzMQQFvdRLjUtZr3SS-o_z/view" class="btn">View Full Document</a>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact Me</h2>
+            <span>lets Talk</span>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-social">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-youtube' ></i></a>
+        </div>
+ 
     </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Create By <a href="">Shivang Singh</a> | All Right Reserved.</p>
+    </div>
+ 
+ 
+ 
+    <!-- Link To JS -->
+    <script src="script.js"></script>
 </body>
 </html>
